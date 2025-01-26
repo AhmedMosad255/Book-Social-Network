@@ -61,5 +61,5 @@ A full-stack application that allows users to manage books, share them with othe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/book-social-network.git
+   git clone (https://github.com/AhmedMosad255/Book-Social-Network.git)
    cd book-social-network/backend
