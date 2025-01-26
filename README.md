@@ -63,3 +63,4 @@ A full-stack application that allows users to manage books, share them with othe
    ```bash
    git clone (https://github.com/AhmedMosad255/Book-Social-Network.git)
    cd book-social-network/backend
+![localhost_8088_api_v1_swagger-ui_index html](https://github.com/user-attachments/assets/1cc1605a-8320-418f-b610-f455974e04c5)
