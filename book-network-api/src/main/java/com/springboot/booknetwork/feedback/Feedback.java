@@ -1,7 +1,10 @@
-package com.springboot.booknetwork.book.feedback;
+package com.springboot.booknetwork.feedback;
 
+import com.springboot.booknetwork.book.Book;
 import com.springboot.booknetwork.common.BaseEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,4 +21,8 @@ public class Feedback extends BaseEntity {
 
     private Double note;
     private String comment;
+
+    @ManyToOne
+    @JoinColumn(name = "book_id")
+    private Book book;
 }
